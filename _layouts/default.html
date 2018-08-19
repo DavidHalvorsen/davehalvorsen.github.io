@@ -48,6 +48,23 @@
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         -->
         </div>
+        <!--
+        I'd like to have a sidebar with my site categories.
+        Having Jekyll categories count and linked to a list of posts related to it
+        https://stackoverflow.com/questions/34514852/having-jekyll-categories-count-and-linked-to-a-list-of-posts-related-to-it
+        ^ The code from StackOverflow *works* to create categories (with fucked up letter casing)
+        I need to figure out how to get it on the right side of the page AND I need to make separate pages
+        to hold each of the individual categories separately. I'll think on this more and eventually post
+        this as a question to StackOverflow.
+        maybe I can use this format?
+        https://digitaldrummerj.me/blogging-on-github-part-5-adding-a-category-page/
+
+        <ul class="tag-box inline">
+          {% for category in site.categories %}
+          <div><a href="{{ site.baseurl }}/category/{{ category[0] }}">{{ category[0] | capitalize }} <span> ({{ category[1].size }}) </span></a></div>
+          {% endfor %}
+        </ul>
+        -->
 
         {{ content }}
 
