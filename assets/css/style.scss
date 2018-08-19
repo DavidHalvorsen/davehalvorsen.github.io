@@ -1,0 +1,8 @@
+---
+---
+
+@import "{{ site.theme }}";
+/*
+The default scss file has a #title margin of 50px. I have changed that to 0 pixes here.
+*/
+section #title{border:0;outline:none;margin:0 0 0px 0;padding:0 0 5px 0}section #title h1{font-family:'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:normal;font-size:40px;text-align:center;line-height:36px}section #title p{color:#d7cfbe;font-family:'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:normal;font-size:18px;text-align:center}section #title .credits{font-size:11px;font-family:'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:normal;color:#696969;margin-top:-10px}section #title .credits.left{float:left}section #title .credits.right{float:right}@media print, screen and (max-width: 720px){#title .credits{display:block;width:100%;line-height:30px;text-align:center}#title .credits .left{float:none;display:block}#title .credits .right{float:none;display:block}}@media print, screen and (max-width: 480px){#header{margin-top:-20px}section{margin-top:40px}nav{display:none}}
