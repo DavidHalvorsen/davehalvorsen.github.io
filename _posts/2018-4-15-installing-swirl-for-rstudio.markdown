@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Installing Swirl for RStudio"
-date:   2018-04-25 3:00:40 -0700
+date:   2018-04-15 3:00:40 -0700
 categories: R
 ---
 I'm currently taking a class in Data Analysis with R at UCSC. For those that haven't heard, R is a statistical programming language that is commonly used for data analytics. I've been a Windows user my whole life, so it's been tempting to learn R in Windows, *BUT* the majority of the analytics jobs that I'm interested in require Linux experience. That's why I've decided to force myself to learn Linux. I'll probably create a step-by-step post about this later, but for now just know that I've made Linux the default booting operating system for my laptop and desktop computers. My Data Analysis course only requires having R, the programming language, and RStudio, the integrated development environment, installed. Thankfully, I had no trouble installing R and RStudio, *BUT* I've been having trouble installing the RStudio learning platform: [Swirl].
 
-Swirl is a program that teaches you how to program in R *while* you are already running R. You could run it in the terminal, or command prompt, *BUT* it's *so* much easier to work with in RStudio. Swirl comes with a beginner-friendly course titled "R Programming", *BUT* you have the option of installing a variety of classes from the [Swirl GitHub Repository]. Obviously, I'm very interested in completing the Swirl tutorial titled [Mathematical Biostatistics Boot Camp], but I can't even get Swirl to install for RStudio in Linux. I checked with Windows and Swirl installed fine, so it's definitely a Linux issue. [Installing Swirl] is easy. All you have to do is enter 'install.packages("swirl")' as a command in either RStudio *or* R (in the terminal). Here's the error message from my Linux install attempt: 
+Swirl is a program that teaches you how to program in R *while* you are already running R. You could run it in the terminal, or command prompt, *BUT* it's *so* much easier to work with in RStudio. Swirl comes with a beginner-friendly course titled "R Programming", *BUT* you have the option of installing a variety of classes from the [Swirl GitHub Repository]. Obviously, I'm very interested in completing the Swirl tutorial titled [Mathematical Biostatistics Boot Camp], but I can't even get Swirl to install for RStudio in Linux. I checked with Windows and Swirl installed fine, so it's definitely a Linux issue. [Installing Swirl] is easy. All you have to do is enter 'install.packages("swirl")' as a command in either RStudio *or* R (in the terminal). Here's the error message from my Linux install attempt:
 
 ![Swirl Installation Errors]({{"/assets/swirl_won't_install/swirl_installation_error.png"}})
 

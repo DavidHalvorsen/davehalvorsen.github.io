@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Basic Python Functions"
-date:   2018-04-16 22:42:40 -0700
+date:   2018-04-14 22:42:40 -0700
 categories: Python
 ---
 

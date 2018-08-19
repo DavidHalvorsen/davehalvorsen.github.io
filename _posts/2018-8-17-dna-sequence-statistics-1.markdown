@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Basic R Functions"
-date:   2018-04-16 22:42:40 -0700
+title:  "DNA Sequence Statistics 1"
+date:   2018-08-17 22:42:40 -0700
 categories: R
 ---
 
-
+a
 
 
 
