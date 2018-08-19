@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Installing MySQL on Ubuntu"
-date:   2018-08-05 11:45:00 -0700
+date:   2018-04-17 11:45:00 -0700
 categories: SQL
 ---
 I completed the Relational Database Design and SQL Programming class at the UCSC Extension campus, but there's always more to learn! That's why I'm working through Sams Teach Yourself SQL in 24 Hours (5th Edition). I'll be posting more detailed parts of my coursework on my GitHub, but I'll share a few articles here. Firstly, it should come as no surprise that the textbook provides plenty of info for Windows and *nothing* for installing on Ubuntu. So, here are my notes from working through that install.
