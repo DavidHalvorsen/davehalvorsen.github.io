@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -31,15 +32,32 @@ layout: default
   </div>
   <br>
 
-  
+
+
 
   <div class="post-content e-content" itemprop="articleBody">
+    <!-- trying to get sidebar <div class="small-12 columns medium-8"> -->
     {{ content }}
   </div>
 
+
+
+<!--
+  <div class="hide-for-small-only medium-4 columns">
+    <ul class="tag-box inline">
+      {% for category in site.categories %}
+      <div><a href="{{ site.baseurl }}/category/{{ category[0] }}">{{ category[0] | capitalize }} <span> ({{ category[1].size }}) </span></a></div>
+      {% endfor %}
+    </ul>
+  </div>
+-->
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <!-- trying to get sidebar </div>  -->
+
+
+
 </article>

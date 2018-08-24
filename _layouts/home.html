@@ -32,3 +32,17 @@ layout: default
   {%- endif -%}
 
 </div>
+<!--
+THIS WORKS TO HAVE A SIDEBAR ON THE HOME PAGE
+ALSO, I KNOW THE CODE FOR MAKING INDIVIDUAL PAGES
+ONCE I HAVE OVERLOADED MY UCRRENT CATEGORIES PAGE,
+I CAN SWITCH TO THE NEW FORMAT
+<div class="hide-for-small-only medium-4 columns">
+  <h2>Categories</h2>
+  <ul class="tag-box inline">
+    {% for category in site.categories %}
+    <div><a href="{{ site.baseurl }}/category/{{ category[0] }}">{{ category[0] | capitalize }} <span> ({{ category[1].size }}) </span></a></div>
+    {% endfor %}
+  </ul>
+</div>
+-->
